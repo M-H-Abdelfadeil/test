@@ -5,8 +5,8 @@ app.innerHTML
 
 
 =`
-<div class="test-class" id="text"></div>
-<img src='' id="icon">
+<div class="test-class" id="text">test</div>
+<img src='dd' id="icon">
 <br><br>
 <form>
     <input name="name" placeholder="name"><br><br>
@@ -15,3 +15,4 @@ app.innerHTML
     <input name="quantity" placeholder="quantity"><br><br>
     <input type="submit">
 </form>
+`
