@@ -38,4 +38,4 @@ app.innerHTML
 
 `
 
-document.getElementById(".aa").style.color = "blue";
+document.querySelector(".aa").style.color = "blue";
