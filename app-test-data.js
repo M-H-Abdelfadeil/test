@@ -7,6 +7,9 @@ app.innerHTML
 =`
 
 
+<div class="aa">
+    page about
+</div>
 
 
 <div class="test-class" id="text">test</div>
@@ -33,5 +36,6 @@ app.innerHTML
 
 
 
-
 `
+
+document.getElementById(".aa").style.color = "blue";
