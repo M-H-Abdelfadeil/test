@@ -7,9 +7,13 @@ app.innerHTML
 =`
 
 
-<div class="aa">
+<div class="test-color">
     page about
 </div>
+
+<div class="test-price"></div>
+
+
 
 
 <div class="test-class" id="text">test</div>
@@ -38,4 +42,5 @@ app.innerHTML
 
 `
 
-document.querySelector(".aa").style.color = dataStyle['color'];
+document.querySelector(".test-color").style.color = dataStyle.color;
+document.querySelector(".test-price").innerHtml = dataStyle.price;
