@@ -43,4 +43,4 @@ app.innerHTML
 `
 
 document.querySelector(".test-color").style.color = dataStyle.color;
-document.querySelector(".test-price").innerHtml = '55';
+document.querySelector(".test-price").innerHTML = dataStyle.price;
