@@ -7,6 +7,10 @@ app.innerHTML
 =`
 
 
+<div class="test-desc">
+    page about
+</div>
+
 <div class="test-color">
     page about
 </div>
@@ -44,3 +48,4 @@ app.innerHTML
 
 document.querySelector(".test-color").style.color = dataStyle.color;
 document.querySelector(".test-price").innerHTML = dataStyle.price;
+document.querySelector(".test-desc").innerHTML = dataStyle.desc;
